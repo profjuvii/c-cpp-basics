@@ -30,9 +30,9 @@ int main() {
 ## Compilation and Execution
 To compile and run this program:
 
-1. Save the code in a file named `hello.c`.
-2. Open a terminal and navigate to the directory containing `hello.c`.
-3. Compile the code with `gcc -o hello hello.c`.
-4. Run the compiled program with `./hello`.
+1. Save the code in a file named `main.c`.
+2. Open a terminal and navigate to the directory containing `main.c`.
+3. Compile the code with `gcc main.c -o main`.
+4. Run the compiled program with `./main`.
 
 You should see the output: `Hello, World!`
