@@ -126,22 +126,3 @@ int main(){
 
 **6. Logical Operators:**
    - Evaluates logical expressions using AND (`&&`), OR (`||`), and NOT (`!`) operators and prints the results.
-
-**7. Return Statement:**
-   - Ends the `main()` function with a return value of `0`, indicating successful completion.
-
-## Task: Write a Simple Calculator
-Create a C program that functions as a basic calculator. The program should perform addition, subtraction, multiplication, and division based on user input. Use `scanf()` for input handling.
-
-### Requirements
-**1. Prompt User for Input:**
-   - Ask the user to enter two numbers and an operator (`+`, `-`, `*`, `/`).
-
-**2. Read User Input:**
-   - Use `scanf()` to read the numbers and operator from the user.
-
-**3. Perform Calculations:**
-   - Based on the entered operator, perform the corresponding arithmetic operation.
-
-**4. Output Result:**
-   - Display the result of the calculation.
