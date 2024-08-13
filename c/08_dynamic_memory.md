@@ -1,6 +1,4 @@
 # Dynamic Memory Management
-
-## Overview
 Dynamic memory management in C allows you to allocate, resize, and free memory at runtime. Functions like `malloc()`, `calloc()`, `realloc()`, and `free()` are used to manage memory dynamically, which is crucial for handling data structures whose size isn't known at compile time.
 
 ## Code Example

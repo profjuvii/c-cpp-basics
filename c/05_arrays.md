@@ -1,6 +1,4 @@
 # Arrays and Strings
-
-## Overview
 This section demonstrates the usage of arrays, strings, and matrices in C. Arrays and strings are fundamental data structures used to store collections of data, while matrices (2D arrays) extend this concept to handle tabular data. Understanding these concepts is crucial for efficient data handling and manipulation in C programming.
 
 ## Array Operations

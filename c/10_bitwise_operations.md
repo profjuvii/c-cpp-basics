@@ -1,6 +1,4 @@
 # Bitwise Operations
-
-## Overview
 Bitwise operations in C are performed at the binary level. They work directly with the bits of integer values and are used for tasks like bit masking, setting, and clearing specific bits. This code demonstrates how to use bitwise AND, OR, XOR, complement, and shifts (left and right).
 
 ## Code Example

@@ -1,6 +1,4 @@
 # Functions
-
-## Overview
 Functions are reusable blocks of code designed to perform specific tasks. In this section, we explore functions for checking prime numbers, calculating factorials, and generating Fibonacci numbers. Understanding these functions helps in mastering common algorithms and recursive problem-solving techniques in C programming.
 
 ## Prime Number Check, Factorial, and Fibonacci Sequence

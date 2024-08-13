@@ -1,6 +1,4 @@
 # Structures, Enumerations, Bit Fields, and Unions
-
-## Overview
 This section explores advanced data types in C, including structures, enumerations, bit fields, and unions. Structures group different types of data together, enumerations define a set of named integer constants, bit fields allow storage of data in a compact format, and unions provide a way to store different types of data in the same memory location.
 
 ## Code Examples

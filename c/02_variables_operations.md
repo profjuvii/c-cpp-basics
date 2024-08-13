@@ -1,6 +1,4 @@
 # Variables and Operations
-
-## Overview
 This section covers fundamental concepts in C programming related to variables, their types, and basic operations. It provides insights into how to declare and initialize variables, perform arithmetic and logical operations, and use operators for various programming tasks.
 
 ## Variable Types and Output

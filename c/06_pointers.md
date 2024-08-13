@@ -1,6 +1,4 @@
 # Pointers
-
-## Overview
 This section introduces the concepts of pointers and functions in C. Pointers are variables that store memory addresses, allowing direct access to other variables. Functions can be used to perform operations, including those that involve pointers. This example demonstrates how to use pointers to pass variables by reference and swap their values.
 
 ## Code Example

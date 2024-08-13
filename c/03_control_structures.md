@@ -1,6 +1,4 @@
 # Control Flow and Loops
-
-## Overview
 This section explores fundamental control flow structures and loops in C programming. It includes examples of conditional statements (`if-else`, ternary operator), branching with the `switch` statement, and iterative constructs (`for`, `while`, `do-while` loops). Understanding these constructs is essential for controlling the flow of execution and performing repetitive tasks in a program.
 
 ## Conditional Statements and Switch

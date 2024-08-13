@@ -1,6 +1,4 @@
 # Introduction to the C language
-
-## Overview
 This is a basic C program that demonstrates how to print a message to the screen. It includes the essential components of a C program and shows how to use the `printf()` function to display output.
 
 ## Code
