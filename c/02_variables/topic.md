@@ -1,7 +1,6 @@
 # Variables and Operations
 
 ## Variable Types and Output
-
 ```c
 #include <stdio.h>      // Header file for input/output functions like printf()
 #include <stdbool.h>    // Header file for Boolean type
@@ -31,22 +30,20 @@ int main() {
 ```
 
 ### Description
-
-**Includes and Declarations:**
+**1. Includes and Declarations:**
 - Includes the standard libraries for I/O operations (`stdio.h`) and Boolean types (`stdbool.h`).
 
-**Variable Initialization:**
+**2. Variable Initialization:**
 - Defines and initializes variables of different types: `int`, `float`, `double`, `char`, and `bool`.
 
-**Output:**
+**3. Output:**
 - Uses `printf()` to display the values of variables in various formats.
 - Demonstrates how to display the ASCII value of a character in decimal, hexadecimal, and octal formats.
 
-**Return Statement:**
+**4. Return Statement:**
 - Ends the `main()` function with a return value of `0`, indicating successful execution.
 
 ## Operators and Output
-
 ```c
 #include <stdio.h>  // Include standard I/O library for printf()
 
@@ -109,42 +106,39 @@ int main(){
 ```
 
 ### Description
-
-**Includes and Declarations:**
+**1. Includes and Declarations:**
 - Includes the standard library for I/O operations (`stdio.h`).
 
-**Arithmetic Operations:**
+**2. Arithmetic Operations:**
 - Performs basic arithmetic operations including addition, subtraction, multiplication, division, and modulus. Prints the results of these operations.
 
-**Assignment Operator:**
+**3. Assignment Operator:**
 - Demonstrates variable assignment and prints the values of assigned variables.
 
-**Increment/Decrement Operators:**
+**4. Increment/Decrement Operators:**
 - Illustrates the use of prefix and postfix increment/decrement operators and displays the results.
 
-**Comparison Operators:**
+**5. Comparison Operators:**
 - Compares variables using equality, inequality, greater than, less than, and their combinations. Prints the comparison results.
 
-**Logical Operators:**
+**6. Logical Operators:**
 - Evaluates logical expressions using AND (`&&`), OR (`||`), and NOT (`!`) operators and prints the results.
 
-**Return Statement:**
+**7. Return Statement:**
 - Ends the `main()` function with a return value of `0`, indicating successful completion.
 
 ## Task: Write a Simple Calculator
-
 Create a C program that functions as a basic calculator. The program should perform addition, subtraction, multiplication, and division based on user input. Use `scanf()` for input handling.
 
 ### Requirements
+**1. Prompt User for Input:**
+   - Ask the user to enter two numbers and an operator (`+`, `-`, `*`, `/`).
 
-**Prompt User for Input:**
-- Ask the user to enter two numbers and an operator (`+`, `-`, `*`, `/`).
+**2. Read User Input:**
+   - Use `scanf()` to read the numbers and operator from the user.
 
-**Read User Input:**
-- Use `scanf()` to read the numbers and operator from the user.
+**3. Perform Calculations:**
+   - Based on the entered operator, perform the corresponding arithmetic operation.
 
-**Perform Calculations:**
-- Based on the entered operator, perform the corresponding arithmetic operation.
-
-**Output Result:**
-- Display the result of the calculation.
+**4. Output Result:**
+   - Display the result of the calculation.
