@@ -13,17 +13,17 @@ int main() {
 ```
 
 ## Description
-**1. Header File Inclusion:**
-   - `#include <stdio.h>`: This line includes the standard input/output library, which provides the `printf()` function used for printing text to the screen.
+1. **Header File Inclusion:**
+  `#include <stdio.h>`: This line includes the standard input/output library, which provides the `printf()` function used for printing text to the screen.
 
-**2. Main Function:**
-   - `int main() { ... }`: The main function is the entry point of any C program. It is where the execution starts.
+2. **Main Function:**
+  `int main() { ... }`: The main function is the entry point of any C program. It is where the execution starts.
 
-**3. Print Statement:**
-   - `printf("Hello, World!\n");`: This line outputs the text "Hello, World!" to the console. The `\n` denotes a newline character, which moves the cursor to the next line after printing.
+3. **Print Statement:**
+  `printf("Hello, World!\n");`: This line outputs the text "Hello, World!" to the console. The `\n` denotes a newline character, which moves the cursor to the next line after printing.
 
-**4. Return Statement:**
-   - `return 0;`: This line indicates that the program has ended successfully. The value `0` is returned to the operating system.
+4. **Return Statement:**
+  `return 0;`: This line indicates that the program has ended successfully. The value `0` is returned to the operating system.
 
 ## Compilation and Execution
 To compile and run this program:
