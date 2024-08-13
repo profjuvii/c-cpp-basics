@@ -1,7 +1,7 @@
 # Introduction to the C language
 
 ## Overview
-This is a basic C program that demonstrates how to print a message to the screen. It includes the essential components of a C program and shows how to use the `printf` function to display output.
+This is a basic C program that demonstrates how to print a message to the screen. It includes the essential components of a C program and shows how to use the `printf()` function to display output.
 
 ## Code
 ```c
@@ -16,7 +16,7 @@ int main() {
 
 ## Description
 **1. Header File Inclusion:**
-   - `#include <stdio.h>`: This line includes the standard input/output library, which provides the `printf` function used for printing text to the screen.
+   - `#include <stdio.h>`: This line includes the standard input/output library, which provides the `printf()` function used for printing text to the screen.
 
 **2. Main Function:**
    - `int main() { ... }`: The main function is the entry point of any C program. It is where the execution starts.
