@@ -1,5 +1,5 @@
 # Introduction to the C language
-This is a basic C program that demonstrates how to print a message to the screen. It includes the essential components of a C program and shows how to use the `printf()` function to display output.
+This C code performs the simple task of displaying a message on the screen.
 
 ## Code
 ```c
@@ -13,17 +13,10 @@ int main() {
 ```
 
 ## Description
-1. **Header File Inclusion:**
-  - `#include <stdio.h>`: This line includes the standard input/output library, which provides the `printf()` function used for printing text to the screen.
-
-2. **Main Function:**
-  - `int main() { ... }`: The main function is the entry point of any C program. It is where the execution starts.
-
-3. **Print Statement:**
-  - `printf("Hello, World!\n");`: This line outputs the text "Hello, World!" to the console. The `\n` denotes a newline character, which moves the cursor to the next line after printing.
-
-4. **Return Statement:**
-  - `return 0;`: This line indicates that the program has ended successfully. The value `0` is returned to the operating system.
+1. `#include <stdio.h>` – includes the standard library for working with input and output (standard functions like `printf()`).
+2. `int main()` is the main function of the program, which is executed first at startup.
+3. `printf("Hello, World!\n");` – displays the message "Hello, World!" with a new line after it.
+4. `return 0;` - terminates the execution of the program and returns the value 0, which means successful completion.
 
 ## Compilation and Execution
 To compile and run this program:
