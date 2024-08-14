@@ -1,5 +1,4 @@
 # Introduction to the C Language
-
 This C code performs the basic task of displaying a message on the screen, which is often the first step in learning a new programming language.
 
 ## Code
@@ -14,7 +13,6 @@ int main() {
 ```
 
 ## Description
-
 1. **`#include <stdio.h>`** – This line tells the preprocessor to include the Standard Input/Output library (`stdio.h`). This library provides functions for input and output, including the `printf()` function used in this program.
 
 2. **`int main()`** – The `main()` function is the entry point of every C program. When the program is executed, this function is called first. The `int` before `main` indicates that the function returns an integer value.
@@ -24,7 +22,6 @@ int main() {
 4. **`return 0;`** – This line ends the `main()` function, returning the value `0` to the operating system. In C, returning `0` typically indicates that the program has successfully executed.
 
 ## Compilation and Execution
-
 To compile and run this C program, follow these steps:
 
 1. **Save the code:** Save the provided code into a file named `main.c`.
@@ -45,13 +42,3 @@ To compile and run this C program, follow these steps:
    ```
    Hello, World!
    ```
-
-## Explanation of Concepts
-
-- **Preprocessor Directive:** The `#include <stdio.h>` is a preprocessor directive that tells the compiler to include the contents of the standard input/output library before actual compilation starts.
-
-- **Functions:** `main()` is a function in C. Every C program must have a `main()` function where the execution begins. The `printf()` function is used for formatted output, making it a fundamental tool for displaying information.
-
-- **Return Values:** The `return` statement in `main()` returns control to the operating system. The value `0` typically signifies that the program executed successfully. 
-
-This program is a classic "Hello, World!" example, commonly used to illustrate the basic structure and syntax of C programs.
