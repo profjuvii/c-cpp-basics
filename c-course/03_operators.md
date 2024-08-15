@@ -5,7 +5,7 @@ This C code demonstrates various fundamental operations such as arithmetic calcu
 ```c
 #include <stdio.h>  // Include standard I/O library for printf()
 
-int main(){
+int main() {
     int a = 10;     // First value
     int b = 5;      // Second value
     
