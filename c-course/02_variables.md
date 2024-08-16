@@ -1,5 +1,5 @@
 # Variables and Data Types
-This C code demonstrates the declaration, initialization, and output of various data types, as well as how to print different formats using `printf`.
+This C code demonstrates the declaration, initialization, and output of various data types, as well as how to print different formats using `printf()`.
 
 ## Code
 ```c
