@@ -38,20 +38,15 @@ int main() {
 ```
 
 ## Description
-1. **`int numbers[] = {71, 45, -2, 343, 52, 90, -87, 37, -111, 18};`**
-   - This line initializes an array of 10 integers. Each element is stored in consecutive memory locations.
+1. **`int numbers[] = {71, 45, -2, 343, 52, 90, -87, 37, -111, 18};`** - This line initializes an array of 10 integers. Each element is stored in consecutive memory locations.
 
-2. **`int size = sizeof(numbers) / sizeof(int);`**
-   - This calculates the number of elements in the array by dividing the total size of the array by the size of a single integer.
+2. **`int size = sizeof(numbers) / sizeof(int);`** - This calculates the number of elements in the array by dividing the total size of the array by the size of a single integer.
 
-3. **`print_array(numbers, size);`**
-   - This function prints each element of the array using a loop.
+3. **`print_array(numbers, size);`** - This function prints each element of the array using a loop.
 
-4. **`numbers[0] = -100;`**
-   - The value of the first element in the array is modified from `71` to `-100`.
+4. **`numbers[0] = -100;`** - The value of the first element in the array is modified from `71` to `-100`.
 
-5. **`int number = numbers[3];`**
-   - This accesses and stores the value at the fourth position (index 3) in the array, which is `343`.
+5. **`int number = numbers[3];`** - This accesses and stores the value at the fourth position (index 3) in the array, which is `343`.
 
 ## Code 2: Working with Strings in C
 ```c
@@ -82,17 +77,12 @@ int main() {
 ```
 
 ## Description
-1. **`char person_name[10] = "Doreen";`**
-   - This line initializes a character array (string) with the value "Doreen". The array size is 10, so it includes 4 unused elements filled with null characters (`'\0'`).
+1. **`char person_name[10] = "Doreen";`** - This line initializes a character array (string) with the value "Doreen". The array size is 10, so it includes 4 unused elements filled with null characters (`'\0'`).
 
-2. **`int length = strlen(person_name);`**
-   - This calculates the length of the string "Doreen", excluding the null characters at the end. The result is `6`.
+2. **`int length = strlen(person_name);`** - This calculates the length of the string "Doreen", excluding the null characters at the end. The result is `6`.
 
-3. **`printf("%s\n", person_name);`**
-   - This prints the entire string.
+3. **`printf("%s\n", person_name);`** - This prints the entire string.
 
-4. **`person_name[0] = 'B';`**
-   - The first character of the string is modified from 'D' to 'B', changing the string from "Doreen" to "Boreen".
+4. **`person_name[0] = 'B';`** - The first character of the string is modified from 'D' to 'B', changing the string from "Doreen" to "Boreen".
 
-5. **`char let = person_name[3];`**
-   - This accesses the fourth character in the string (index 3), which is 'e', and stores it in the variable `let`.
+5. **`char let = person_name[3];`** - This accesses the fourth character in the string (index 3), which is 'e', and stores it in the variable `let`.

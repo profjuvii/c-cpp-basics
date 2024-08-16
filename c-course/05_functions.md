@@ -70,30 +70,30 @@ int main() {
 ```
 
 ## Description
-### Prime Number Function: `is_prime`
-- **Purpose:** To check whether a given number `n` is prime.
-- **Logic:**
-  - If `n` is less than or equal to 3, the function checks if `n` is greater than 1, since 2 and 3 are the smallest primes.
-  - If `n` is divisible by 2 or 3, it is not prime.
-  - For numbers greater than 3, the function checks divisibility by all numbers of the form `6k ± 1` up to the square root of `n`.
-- **Return Value:** Returns `true` if `n` is prime; otherwise, returns `false`.
+1. **Prime Number Check Function (`is_prime`)**
+   - **Purpose**: This function determines if a given number `n` is prime.
+   - **Logic**:
+     - For numbers less than or equal to 3, the function returns `true` (for 2 and 3) or `false` (for numbers 0, 1).
+     - The function eliminates even numbers and multiples of 3 as non-prime.
+     - It then checks divisibility by all numbers of the form `6k ± 1` up to the square root of `n`.
+   - **Result**: The function returns `true` if the number is prime and `false` otherwise.
 
-### Factorial Function: `factorial`
-- **Purpose:** To calculate the factorial of a given number `n`.
-- **Logic:**
-  - The factorial of a number is the product of all positive integers less than or equal to that number.
-  - The function uses recursion, where `factorial(n)` calls `factorial(n-1)` until it reaches the base case (`n <= 1`), returning `1`.
-  - For `n < 0`, it returns `0`, handling negative inputs.
-- **Return Value:** The factorial of `n`.
+2. **Factorial Calculation Function (`factorial`)**
+   - **Purpose**: This function computes the factorial of a given non-negative integer `n`.
+   - **Logic**:
+     - The base case returns 1 for `n` being 0 or 1.
+     - The recursive case multiplies `n` by the factorial of `n-1`.
+   - **Result**: The function returns the factorial of `n`. For example, `8! = 40320`.
 
-### Fibonacci Function: `fibonacci`
-- **Purpose:** To calculate the nth number in the Fibonacci sequence.
-- **Logic:**
-  - The function returns `-1` for non-positive inputs to indicate an error.
-  - For positive values, it uses an iterative approach to calculate the Fibonacci sequence, starting with `0` and `1` and continuing to sum the previous two numbers.
-- **Return Value:** The nth Fibonacci number.
+3. **Fibonacci Number Generation Function (`fibonacci`)**
+   - **Purpose**: This function generates the `n`th Fibonacci number.
+   - **Logic**:
+     - The function handles the error case where `n` is less than or equal to 0 by returning `-1`.
+     - It uses an iterative approach, starting with `prev = 0` and `current = 1`, to compute the sequence.
+     - The loop iterates to find the `n`th Fibonacci number.
+   - **Result**: The function returns the `n`th Fibonacci number. For example, `fibonacci(1) = 1`, `fibonacci(2) = 1`, `fibonacci(3) = 2`, etc.
 
-### Main Function: `main`
-- **Prime Numbers:** The program prints all prime numbers between 0 and 14 by calling `is_prime()` within a loop.
-- **Factorial Calculation:** The factorial of 8 is calculated using the `factorial()` function and the result is printed.
-- **Fibonacci Sequence:** The first 20 Fibonacci numbers are generated and printed using the `fibonacci()` function.
+4. **Main Function (`main`)**
+   - **Prime Numbers**: The program prints all prime numbers between 0 and 14 using the `is_prime` function.
+   - **Factorial Calculation**: It calculates and prints the factorial of `8`.
+   - **Fibonacci Sequence**: The program prints the first 20 Fibonacci numbers using the `fibonacci` function.
