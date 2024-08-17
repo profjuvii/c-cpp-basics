@@ -1,4 +1,7 @@
 # Introduction to the C Language
+C is a general-purpose, procedural programming language that was developed in the early 1970s by Dennis Ritchie. It is known for its efficiency, close-to-hardware operations, and foundational role in modern programming. C provides low-level memory access, making it ideal for system programming, operating systems, and embedded systems.
+
+## Overview of the Code Functionality
 This C code performs the basic task of displaying a message on the screen, which is often the first step in learning a new programming language.
 
 ## Code
@@ -29,13 +32,13 @@ To compile and run this C program, follow these steps:
 2. **Open a terminal:** Navigate to the directory where you saved `main.c`.
 
 3. **Compile the program:** Use the GCC compiler to compile the code. Enter the command:
-   ```
+   ```bash
    gcc main.c -o main
    ```
    This command compiles `main.c` and creates an executable file named `main`.
 
 4. **Run the program:** Execute the compiled program by typing:
-   ```
+   ```bash
    ./main
    ```
    This will run the program, and you should see the output:
