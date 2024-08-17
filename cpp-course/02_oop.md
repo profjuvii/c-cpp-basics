@@ -63,10 +63,8 @@ int main() {
      - **`void display() const`** – This member function prints the dimensions of the rectangle to the console.
 
 3. **`int main()`** – The `main()` function is the entry point of the program.
-
    - **Create an Object:**
      - **`Rectangle rect(10, 5);`** – An object of the `Rectangle` class is created with width `10` and height `5`.
-
    - **Display Information:**
      - **`rect.display();`** – Calls the `display()` method to print the dimensions of the rectangle.
      - **`std::cout << "Area: " << rect.getArea() << "\n";`** – Calls the `getArea()` method to calculate and print the area of the rectangle.
