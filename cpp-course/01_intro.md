@@ -26,7 +26,7 @@ int main() {
 
 ### Function Definition
 3. **`void greet()`** – This line defines a function named `greet`. The keyword `void` indicates that the function does not return any value. The function performs a specific task: printing a message to the console.
-   - **`cout << "Hello, World!" << endl;`** – Inside the `greet` function, this line uses `cout` to print `"Hello, World!"` to the console. The `endl` manipulator adds a newline, moving the cursor to the next line after the message is printed.
+    - **`cout << "Hello, World!" << endl;`** – Inside the `greet` function, this line uses `cout` to print `"Hello, World!"` to the console. The `endl` manipulator adds a newline, moving the cursor to the next line after the message is printed.
 
 ### Main Function
 4. **`int main()`** – This is the main function of the program, where execution begins. The `int` return type indicates that this function returns an integer value, typically used to signal the program's exit status.
