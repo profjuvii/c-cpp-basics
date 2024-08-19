@@ -1,4 +1,4 @@
-# Introduction to Polymorphism in C++
+# Polymorphism
 This C++ code demonstrates polymorphism through the use of virtual functions and inheritance.
 
 ## Code
