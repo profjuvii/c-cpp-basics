@@ -18,8 +18,8 @@ The courses are organized into Markdown (`.md`) files, each covering different t
    Each Markdown file contains short code snippets. These examples are meant to provide a practical understanding of the topics covered.
 
 ## Course Structure
-- **C Language**: Basic concepts, syntax, and foundational programming principles in C.
-- **C++ Language**: Object-oriented programming concepts, advanced features, and standard library usage in C++.
+- **C Language**: Basic concepts, syntax, and foundational programming principles.
+- **C++ Language**: Object-oriented programming concepts, advanced features, and standard library usage.
 
 ## Usage
 - Open the `.md` files in any Markdown viewer or text editor.
