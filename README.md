@@ -8,7 +8,7 @@ The courses are organized into Markdown (`.md`) files, each covering different t
 1. **Clone the Repository**
    To get started, clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/c-cpp-courses.git
+   git clone https://github.com/profjuvii/c-cpp-courses.git
    ```
 
 2. **Navigate to the Course Material**
