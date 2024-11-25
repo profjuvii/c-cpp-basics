@@ -56,12 +56,12 @@ gcc -o main main.c
 
 1. **Compilation standard:**
   - The `-std=` flag sets the language standard (e.g., `-std=c89`, `-std=c99`, `-std=c11`, etc.). Choosing a standard affects language features and syntax checks.
-- Newer standards introduce modern features but may be incompatible with older code.
+  - Newer standards introduce modern features but may be incompatible with older code.
 
 2. **Checks and warnings:**
   - `-Wall`: Enables basic warnings.
-   - `-Wextra`: Additional warnings for better code analysis.
-    - `-Werror`: Treats warnings as errors.
+  - `-Wextra`: Additional warnings for better code analysis.
+  - `-Werror`: Treats warnings as errors.
 
 3. **Optimization:**
   - `-O0`: Disables optimizations (default, useful for debugging).
