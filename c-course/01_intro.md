@@ -29,7 +29,7 @@ int main() {
 
 ## Compilation
 
-**Code compilation** is the process of converting source code written in a high-level programming language (e.g., C) into machine code (binary code). This process is handled by a program called a compiler. The first compiler for C was `cc`, created by Dennis Ritchie at Bell Labs in 1973. The standard compiler on most platforms became `gcc` (GNU Compiler Collection), which supports C standards (C89, C99, C11, C17, C23). Other popular compilers include `clang` (from LLVM), `MSVC` (Microsoft Visual C++ for Windows), and `ICC` (Intel Compiler for high-performance computing).
+**Code compilation** is the process of converting source code written in a high-level programming language (e.g., C) into machine code (binary code). This process is handled by a program called a compiler. The first compiler for C was `cc`, created by Dennis Ritchie in 1973. The standard compiler on most platforms became `gcc` (GNU Compiler Collection), which supports C standards (C89, C99, C11, C17, C23). Other popular compilers include `clang` (from LLVM), `MSVC` (Microsoft Visual C++ for Windows), and `ICC` (Intel Compiler for high-performance computing).
 
 ### Main stages of C compilation:
 
