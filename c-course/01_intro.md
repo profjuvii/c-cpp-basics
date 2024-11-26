@@ -34,17 +34,17 @@ int main() {
 ### Main Stages of C Compilation:
 
 1. **Preprocessing (gcc -E):**
-  - The stage of processing preprocessor directives such as `#include` and `#define`, where the compiler includes specified header files and replaces macros.
-  - The result is "expanded" source code where all included files are integrated, and macros are expanded.
+    - The stage of processing preprocessor directives such as `#include` and `#define`, where the compiler includes specified header files and replaces macros.
+    - The result is "expanded" source code where all included files are integrated, and macros are expanded.
 
 2. **Compilation (gcc -S):**
-  - The source code (or expanded code after preprocessing) is translated into an intermediate representation—assembly code. This is a textual form of instructions understood by a specific processor.
+    - The source code (or expanded code after preprocessing) is translated into an intermediate representation—assembly code. This is a textual form of instructions understood by a specific processor.
 
 3. **Assembly (gcc -c):**
-  - The assembly code is converted into object code (machine code). The object file contains binary instructions but is not yet ready for execution because it may depend on other files (e.g., libraries).
+    - The assembly code is converted into object code (machine code). The object file contains binary instructions but is not yet ready for execution because it may depend on other files (e.g., libraries).
 
 4. **Linking (gcc):**
-  - Object files are combined with external libraries, and an executable file is created.
+    - Object files are combined with external libraries, and an executable file is created.
 
 **Example of a typical compilation for the file `main.c`:**
 

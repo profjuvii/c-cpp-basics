@@ -38,9 +38,11 @@ There are also other units of information measurement composed of sets of bits, 
 4. **Void Type:**
     - `void`: Used for functions that do not return a value.
 
+### Explanation of `signed` and `unsigned` Types:
+
 In C, integers can be `signed` or `unsigned`, which determines whether the type can store negative values.
 
-- **Signed Types:** 
+- **Signed Types:**
     - Can store both positive and negative numbers.
     - The most significant bit (MSB) is used to determine the sign: `0` for positive and `1` for negative.
     - For example, for an 8-bit `signed char`, the range is from -128 to 127.
