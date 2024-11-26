@@ -1,6 +1,6 @@
-# Introduction to the C language
+# Introduction to the C Language
 
-C is a general-purpose programming language (GPL) that is widely used for developing systems and application software. It was created in the 1972 by Dennis Ritchie.
+**C** is a general-purpose programming language (GPL) that is widely used for developing systems and application software. It was created in the 1972 by Dennis Ritchie.
 
 ### Key Features:
 
@@ -31,7 +31,7 @@ int main() {
 
 **Code compilation** is the process of converting source code written in a high-level programming language (e.g., C) into machine code (binary code). This process is handled by a program called a compiler. The first compiler for C was `cc`, created by Dennis Ritchie in 1973. The standard compiler on most platforms became `gcc` (GNU Compiler Collection), which supports C standards (C89, C99, C11, C17, C23). Other popular compilers include `clang` (from LLVM), `MSVC` (Microsoft Visual C++ for Windows), and `ICC` (Intel Compiler for high-performance computing).
 
-### Main stages of C compilation:
+### Main Stages of C Compilation:
 
 1. **Preprocessing (gcc -E):**
   - The stage of processing preprocessor directives such as `#include` and `#define`, where the compiler includes specified header files and replaces macros.
@@ -52,7 +52,7 @@ int main() {
 gcc -o main main.c
 ```
 
-### Compiler flags:
+### Compiler Flags:
 
 1. **Compilation standard:**
   - The `-std=` flag sets the language standard (e.g., `-std=c89`, `-std=c99`, `-std=c11`, etc.). Choosing a standard affects language features and syntax checks.
