@@ -25,15 +25,15 @@ There are also other units of information measurement composed of sets of bits, 
   - **Floating-Point Types:** Store decimal numbers (e.g., `float`, `double`).
   - **Character Types:** Store ASCII characters (e.g., `char`).
 
-2. **Derived Types:**
+2. Derived Types:
   - **Arrays:** Sequences of data of the same type.
   - **Pointers:** Memory addresses of variables.
   - **Structures:** Collections of variables of different types.
   - **Unions:** Store multiple variables in the same memory area.
 
-3. **User-Defined Types:**
-  - **Enumerations (Enums):** Sets of named integer constants.
-  - **Typedefs:** Create new names for existing data types.
+3. User-Defined Types:
+   - **Enumerations (Enums):** Sets of named integer constants.
+   - **Typedefs:** Create new names for existing data types.
 
 4. **Void Type:**
   - `void`: Used for functions that do not return a value.
