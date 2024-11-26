@@ -20,35 +20,35 @@ There are also other units of information measurement composed of sets of bits, 
 
 ### Main Categories of Data Types:
 
-**1. Primitive Types (Basic Data):**
-  - **Integer Types:** Store whole numbers (e.g., `int`, `unsigned int`).
-  - **Floating-Point Types:** Store decimal numbers (e.g., `float`, `double`).
-  - **Character Types:** Store ASCII characters (e.g., `char`).
+1. **Primitive Types (Basic Data):**
+    - **Integer Types:** Store whole numbers (e.g., `int`, `unsigned int`).
+    - **Floating-Point Types:** Store decimal numbers (e.g., `float`, `double`).
+    - **Character Types:** Store ASCII characters (e.g., `char`).
 
-2. Derived Types:
-  - **Arrays:** Sequences of data of the same type.
-  - **Pointers:** Memory addresses of variables.
-  - **Structures:** Collections of variables of different types.
-  - **Unions:** Store multiple variables in the same memory area.
+2. **Derived Types:**
+    - **Arrays:** Sequences of data of the same type.
+    - **Pointers:** Memory addresses of variables.
+    - **Structures:** Collections of variables of different types.
+    - **Unions:** Store multiple variables in the same memory area.
 
-3. User-Defined Types:
-   - **Enumerations (Enums):** Sets of named integer constants.
-   - **Typedefs:** Create new names for existing data types.
+3. **User-Defined Types:**
+    - **Enumerations (Enums):** Sets of named integer constants.
+    - **Typedefs:** Create new names for existing data types.
 
 4. **Void Type:**
-  - `void`: Used for functions that do not return a value.
+    - `void`: Used for functions that do not return a value.
 
 In C, integers can be `signed` or `unsigned`, which determines whether the type can store negative values.
 
 - **Signed Types:** 
-  - Can store both positive and negative numbers.
-  - The most significant bit (MSB) is used to determine the sign: `0` for positive and `1` for negative.
-  - For example, for an 8-bit `signed char`, the range is from -128 to 127.
+    - Can store both positive and negative numbers.
+    - The most significant bit (MSB) is used to determine the sign: `0` for positive and `1` for negative.
+    - For example, for an 8-bit `signed char`, the range is from -128 to 127.
 
 - **Unsigned Types:**
-  - Used to store only non-negative numbers (positive values and zero).
-  - All bits represent the value, which increases the maximum value that can be stored.
-  - For example, for an 8-bit `unsigned char`, the range is from 0 to 255.
+    - Used to store only non-negative numbers (positive values and zero).
+    - All bits represent the value, which increases the maximum value that can be stored.
+    - For example, for an 8-bit `unsigned char`, the range is from 0 to 255.
 
 ### Table of Primitive Data Types (for a 64-bit system):
 
