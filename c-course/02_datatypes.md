@@ -6,13 +6,13 @@ There are also other units of information measurement composed of sets of bits, 
 
 ### Table of Basic Units of Information:
 
-| Unit               | Number of Bits         | Number of Bytes (Size in Bits) |
-|--------------------|------------------------|--------------------------------|
-| **Byte**           | 8 bits                 | 1 byte                         |
-| **Kilobyte (kB)**  | 8192 bits              | 1024 bytes                     |
-| **Megabyte (MB)**  | 8,388,608 bits         | 1,048,576 bytes                |
-| **Gigabyte (GB)**  | 8,589,934,592 bits     | 1,073,741,824 bytes            |
-| **Terabyte (TB)**  | 8,796,093,022,208 bits | 1,099,511,627,776 bytes        |
+| Unit               | Number of Bits         | Number of Bytes         |
+|--------------------|------------------------|-------------------------|
+| **Byte**           | 8 bits                 | 1 byte                  |
+| **Kilobyte (kB)**  | 8192 bits              | 1024 bytes              |
+| **Megabyte (MB)**  | 8,388,608 bits         | 1,048,576 bytes         |
+| **Gigabyte (GB)**  | 8,589,934,592 bits     | 1,073,741,824 bytes     |
+| **Terabyte (TB)**  | 8,796,093,022,208 bits | 1,099,511,627,776 bytes |
 
 ## Data Types in C
 
@@ -20,7 +20,7 @@ There are also other units of information measurement composed of sets of bits, 
 
 ### Main Categories of Data Types:
 
-1. **Primitive Types (Basic Data):**
+**1. Primitive Types (Basic Data):**
   - **Integer Types:** Store whole numbers (e.g., `int`, `unsigned int`).
   - **Floating-Point Types:** Store decimal numbers (e.g., `float`, `double`).
   - **Character Types:** Store ASCII characters (e.g., `char`).
